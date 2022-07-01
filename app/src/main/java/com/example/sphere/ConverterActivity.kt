@@ -1,11 +1,20 @@
 package com.example.sphere
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sphere.databinding.ActivityConverterBinding
 
 class ConverterActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityConverterBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_converter)
+        binding = ActivityConverterBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.newsIcon.setOnClickListener {
+            startActivity(Intent(this, NewsActivity::class.java))
+            finish()
+        }
     }
 }

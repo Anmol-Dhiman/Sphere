@@ -10,4 +10,6 @@
 
 
     <color name="shadowColor">#353A3F</color>
+    <color name="searchButton">#F5F6FA</color>
+    <color name="searchIconColor">#3D56FA</color>
 </resources>
