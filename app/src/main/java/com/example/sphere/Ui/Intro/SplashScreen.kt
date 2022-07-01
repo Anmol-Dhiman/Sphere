@@ -1,4 +1,4 @@
-package com.example.sphere
+package com.example.sphere.Ui.Intro
 
 
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.os.Handler
 import android.os.Looper
 
 import android.view.View
+import com.example.sphere.ConverterActivity
 import com.example.sphere.Helper.ClassHelpers
 import com.example.sphere.databinding.ActivitySplashScreenBinding
 
@@ -22,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
 
         val preferences = getSharedPreferences("Starter", MODE_PRIVATE)
         firstTime = preferences.getString("firstTimeOpening", "yes").toString()
-        val intent = Intent(this, ConverterActivity::class.java)
+        val intent = Intent(this, IntroActivity::class.java)
 
         if (firstTime == "yes") {
 //            user has installed the app for the first time so we execute this code

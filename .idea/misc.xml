@@ -3,10 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/button_input_shadow.xml" value="0.1845" />
         <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_bookmark_selected.xml" value="0.109" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_bookmark_unselected.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_logo.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_moon_unselected.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_news_.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_search.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_selected_dot.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/ic_unselected_dot.xml" value="0.1845" />
         <entry key="..\:/CurrencyConverter/app/src/main/res/drawable/text_shadow.xml" value="0.1845" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/layout/activity_coin_intro.xml" value="0.33" />
         <entry key="..\:/CurrencyConverter/app/src/main/res/layout/activity_converter.xml" value="0.36666666666666664" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/layout/activity_intro.xml" value="0.5" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/layout/activity_news_intro.xml" value="0.25" />
         <entry key="..\:/CurrencyConverter/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/layout/fragment_currency.xml" value="0.25" />
+        <entry key="..\:/CurrencyConverter/app/src/main/res/layout/fragment_news.xml" value="0.33" />
       </map>
     </option>
   </component>

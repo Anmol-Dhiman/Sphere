@@ -2,9 +2,10 @@ package com.example.sphere.Helper
 
 import android.app.Activity
 import android.app.AlertDialog
-import android.app.Dialog
+
 import android.content.Context
-import android.content.DialogInterface
+
+import androidx.appcompat.app.AppCompatActivity
 
 
 class ClassHelpers {
@@ -17,6 +18,10 @@ class ClassHelpers {
                 }
                 .setNegativeButton("Yes") { dialog, which ->
 
+                    val preferences =
+                        context.getSharedPreferences("Starter", AppCompatActivity.MODE_PRIVATE)
+                    var editor = preferences.edit()
+                    editor.putString("firstTimeOpening", "yes").apply()
                     (context as Activity).finish()
                 }.create().show()
         }
