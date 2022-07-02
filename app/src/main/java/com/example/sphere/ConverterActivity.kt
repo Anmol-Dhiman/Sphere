@@ -1,8 +1,10 @@
 package com.example.sphere
 
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sphere.Helper.ClassHelpers
 import com.example.sphere.databinding.ActivityConverterBinding
 
 class ConverterActivity : AppCompatActivity() {
@@ -16,5 +18,13 @@ class ConverterActivity : AppCompatActivity() {
             startActivity(Intent(this, NewsActivity::class.java))
             finish()
         }
+
+        binding.converterDarkMode.setOnClickListener {
+            ClassHelpers.DarkMode.darkModeOn(this)
+        }
+    }
+
+    override fun onBackPressed() {
+        ClassHelpers.Exit.exitApp(this)
     }
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.sphere.Helper.ClassHelpers
 import com.example.sphere.Ui.Fragment.ApiNews
 import com.example.sphere.Ui.Fragment.SavedNews
 import com.example.sphere.databinding.ActivityNewsBinding
@@ -36,9 +37,17 @@ class NewsActivity : AppCompatActivity() {
             }
 
         }
+
+        binding.newsDarkMode.setOnClickListener {
+            ClassHelpers.DarkMode.darkModeOn(this)
+        }
     }
 
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction().replace(R.id.newsFrameLayout, fragment).commit()
+    }
+
+    override fun onBackPressed() {
+        ClassHelpers.Exit.exitApp(this)
     }
 }

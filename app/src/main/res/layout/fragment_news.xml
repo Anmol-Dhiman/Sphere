@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
+
     tools:context=".Ui.Fragment.news">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +35,7 @@
             android:layout_marginTop="28dp"
             android:text="Updated Business, Stocks and Crypto Market News"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

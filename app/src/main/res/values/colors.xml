@@ -8,8 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-
-    <color name="shadowColor">#353A3F</color>
+    <color name="backgroundColor">@color/white</color>
+    <color name="primaryColor">#000000</color>
     <color name="searchButton">#F5F6FA</color>
     <color name="searchIconColor">#3D56FA</color>
 </resources>

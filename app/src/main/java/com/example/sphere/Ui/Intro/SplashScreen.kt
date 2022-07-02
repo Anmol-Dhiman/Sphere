@@ -10,6 +10,7 @@ import android.os.Looper
 import android.view.View
 import com.example.sphere.ConverterActivity
 import com.example.sphere.Helper.ClassHelpers
+import com.example.sphere.R
 import com.example.sphere.databinding.ActivitySplashScreenBinding
 
 

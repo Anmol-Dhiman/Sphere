@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".Ui.Intro.SplashScreen">
 
     <ImageView
@@ -22,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:elevation="5dp"
-        android:shadowColor="@color/shadowColor"
         android:shadowDx="-2"
         android:shadowDy="-2"
         android:shadowRadius="3"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tagLine"
         android:layout_width="316dp"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
@@ -58,7 +58,7 @@
         android:elevation="5dp"
         android:text="Get Started"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#FFFFFF"
